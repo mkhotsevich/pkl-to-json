@@ -1,6 +1,6 @@
 {
   "name": "pkl-to-json",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Convert .pkl to .json",
   "author": "Maxim Khotsevich <mkhotsevich@gmail.com>",
   "keywords": [
