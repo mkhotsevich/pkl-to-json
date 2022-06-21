@@ -1,0 +1,36 @@
+{
+  "name": "pkl-to-json",
+  "version": "1.0.4",
+  "description": "Convert .pkl to .json",
+  "author": "Maxim Khotsevich <mkhotsevich@gmail.com>",
+  "keywords": [
+    "pkl",
+    "json",
+    "pickle",
+    "convert"
+  ],
+  "homepage": "https://github.com/mkhotsevich/pkl-to-json#readme",
+  "bugs": {
+    "url": "https://github.com/mkhotsevich/pkl-to-json/issues",
+    "email": "mkhotsevich@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkhotsevich/pkl-to-json"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
